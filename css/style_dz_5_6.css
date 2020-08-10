@@ -1,0 +1,63 @@
+.wrapper {
+	width: 1200px;
+	background: yellow;
+	margin: 0 auto;
+		
+
+}
+.number{
+	font-size: 30px;
+	font-weight: 800;
+	color black;
+}
+
+.display_table_cell
+{	width: 400px;
+	display: table-cell;
+}
+
+
+.block{
+	font-size: 0
+}
+
+.display_inline_block{	
+	width: 400px;
+	display: inline-block;
+	font-size: 20px;
+}
+div div div {outline: solid green 2px;
+			background: pink;}
+
+.float{			
+		float: left;
+		outline: 2px solid black;
+		}
+
+.width_400{ width: 400px }
+.width_800{ width: 800px }
+.width_200{ width: 200px }
+.border_bottom{border-bottom: green solid 10px}
+		
+.clear{	clear: both}
+
+.clearfix:after{
+			content: " ";
+			clear: both;
+  			display: block;
+		}
+
+.flex_conteiner {
+	display: flex;
+		}
+.flex_800{
+	flex: 0 0 800px;
+		}
+.flex_400{
+	flex: 0 0 400px; 
+		}
+.flex_200{
+	flex: 0 0 200px;
+		}
+
+		
