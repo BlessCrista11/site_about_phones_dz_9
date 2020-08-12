@@ -149,8 +149,24 @@ li:first-child {
 	display: block;
 	/*padding:10px 30px ;	*/
 	padding:10px 30px 10px 80px;
+}
+
+.list_main_2_lvl a{
+	
+	padding:10px 30px 10px 30px;
+}
+
+.ul_2>li:nth-child(3)>a{
+	
+	padding:10px 30px 10px 80px;
+}
+
+.ul_1>li:last-child>a{
+	
+	padding:10px 80px 10px 30px;
 
 }
+
 		.menu_left {
 			background: lime;
 			left: 0;
@@ -223,45 +239,62 @@ li:first-child {
 			background-position: -550px 0;
 		}*/
 
-		.list_main_1_lvl a:before{
+		.list_main_1_lvl>a:before{
 				content: "";
 			background: url('../img/css_sprites.png');
 			
 			width: 50px;
 			height: 50px;
 			position: absolute;
-			/*right: 0;*/
+			
 			left: 0;
 			top: 0;
 		}
-		.right_logo a:after{
-				content: "";			
-				right: 0;
-				top: 0;
-				padding:10px 80px 10px 30px;
-				background: red;
+		
+		.ul_1>li:last-child>a:before {
+			
+					content: "";
+			background: url('../img/css_sprites.png');
+			
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			right: 0;
+			left: auto;
+			top: 0;
 
-
+			}
+			.ul_2>li:nth-child(3)>a:before{
+		content: "";
+			background: url('../img/css_sprites.png');
+			
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0;
+			top: 0;
 		}
 
 
-		.ul_1 li a:before{
+
+		.ul_1>li>a:before{
 			background-position: -00px 0;
 		}
-		.ul_1 li+li a:before{
+		.ul_1>li+li>a:before{
 			background-position: -50px 0;
 		}
-		.ul_1 li+li+li a:before{
+		.ul_1>li:last-child>a:before{
 			background-position: -100px 0;
 		}
-		.ul_2 li+li a:{
-			background-position: -350px 0;
+		.ul_2>li:nth-child(3)>a:before{
+			background-position: -150px 0;
 		}
 		
 
-		.ul_1 li+li+li:hover a:before{
+
+		.ul_1>li+li+li:hover>a:before{
 			background-position: -250px 0;
 		}
-		.ul_2 li+li:hover a:before{
-			background-position: -350px 0;
+		.ul_2>li+li:hover>a:before{
+			background-position: -200px 0;
 		
